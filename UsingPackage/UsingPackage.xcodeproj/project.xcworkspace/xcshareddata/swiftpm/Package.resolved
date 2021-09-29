@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FirstPackage",
+        "repositoryURL": "https://github.com/muthineni/FirstPackage",
+        "state": {
+          "branch": "main",
+          "revision": "092fb1a14f3c3ceecb9613e542ce677181f5c9d3",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
