@@ -1,16 +1,15 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "FirstPackage",
-        "repositoryURL": "https://github.com/muthineni/FirstPackage",
-        "state": {
-          "branch": "main",
-          "revision": "092fb1a14f3c3ceecb9613e542ce677181f5c9d3",
-          "version": null
-        }
+  "originHash" : "570536f0f5a36ebf183a1f79246e97a61650d148ed18fe5ec1260545c7580ad2",
+  "pins" : [
+    {
+      "identity" : "networkmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/muthineni/NetworkManager.git",
+      "state" : {
+        "revision" : "a83856b07c5ba37d93f6a42fac13e2bf8fe08123",
+        "version" : "1.0.0"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 3
 }

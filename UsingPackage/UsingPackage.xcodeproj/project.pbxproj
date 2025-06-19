@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06FB418D2E04AF80009D642C /* NetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = 06FB418C2E04AF80009D642C /* NetworkManager */; };
 		81DC8A0E27051A3B000B2D77 /* UsingPackageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DC8A0D27051A3B000B2D77 /* UsingPackageApp.swift */; };
 		81DC8A1027051A3B000B2D77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DC8A0F27051A3B000B2D77 /* ContentView.swift */; };
 		81DC8A1227051A49000B2D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DC8A1127051A49000B2D77 /* Assets.xcassets */; };
 		81DC8A1527051A49000B2D77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DC8A1427051A49000B2D77 /* Preview Assets.xcassets */; };
-		81DC8A1D27051D4F000B2D77 /* FirstPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 81DC8A1C27051D4F000B2D77 /* FirstPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81DC8A1D27051D4F000B2D77 /* FirstPackage in Frameworks */,
+				06FB418D2E04AF80009D642C /* NetworkManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = UsingPackage;
 			packageProductDependencies = (
-				81DC8A1C27051D4F000B2D77 /* FirstPackage */,
+				06FB418C2E04AF80009D642C /* NetworkManager */,
 			);
 			productName = UsingPackage;
 			productReference = 81DC8A0A27051A3B000B2D77 /* UsingPackage.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = 81DC8A0127051A3B000B2D77;
 			packageReferences = (
-				81DC8A1B27051D4F000B2D77 /* XCRemoteSwiftPackageReference "FirstPackage" */,
+				06FB418B2E04AF80009D642C /* XCRemoteSwiftPackageReference "NetworkManager" */,
 			);
 			productRefGroup = 81DC8A0B27051A3B000B2D77 /* Products */;
 			projectDirPath = "";
@@ -285,7 +285,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,9 +293,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.personal.UsingPackage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +318,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,9 +326,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.personal.UsingPackage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -353,21 +359,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		81DC8A1B27051D4F000B2D77 /* XCRemoteSwiftPackageReference "FirstPackage" */ = {
+		06FB418B2E04AF80009D642C /* XCRemoteSwiftPackageReference "NetworkManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/muthineni/FirstPackage";
+			repositoryURL = "https://github.com/muthineni/NetworkManager.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		81DC8A1C27051D4F000B2D77 /* FirstPackage */ = {
+		06FB418C2E04AF80009D642C /* NetworkManager */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 81DC8A1B27051D4F000B2D77 /* XCRemoteSwiftPackageReference "FirstPackage" */;
-			productName = FirstPackage;
+			package = 06FB418B2E04AF80009D642C /* XCRemoteSwiftPackageReference "NetworkManager" */;
+			productName = NetworkManager;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
